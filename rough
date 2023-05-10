@@ -1,0 +1,23 @@
+Functional Test Cases:
+a. Verify the page loads properly with all elements displaying as intended.
+b. Verify the domain search input field accepts alphanumeric characters, hyphens, and periods.
+c. Verify the domain search input field has a character limit (e.g., 63 characters for domain name excluding TLD).
+d. Test various TLDs in the domain search input field (.com, .net, .org, etc.).
+e. Test domain search with valid and invalid domain names.
+f. Verify that the search button is enabled only when the input field contains a valid domain name.
+g. Test search functionality for available and unavailable domain names.
+h. Verify the domain search results are displayed correctly, including domain name, price, and TLD.
+i. Test pagination and sorting functionality in the search results.
+j. Test the "Add to Cart" functionality for available domains.
+k. Verify that the cart accurately reflects added domains, quantities, and pricing.
+l. Test the checkout process, including user registration, login, and payment processing.
+m. Verify that the SSL certificate is properly implemented and functional.
+n. Test the website's responsiveness on different devices and screen resolutions.
+
+Usability Test Cases:
+a. Verify the website's user interface is intuitive and easy to navigate.
+b. Check for consistent design elements and branding throughout the website.
+c. Verify that important buttons and links are easily accessible and noticeable.
+d. Test the website's load time on various network connections.
+e. Verify that error messages and notifications are clear and informative.
+f. Test the website's accessibility features, such as text size, contrast, and keyboard navigation.

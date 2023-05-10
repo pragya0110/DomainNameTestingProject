@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utility.ExtentListeners"/>
+    </listeners>
+    <test name="testing">
+    <classes>
+            <class name="testcases.SearchResultTest">
+                <methods>
+                    <include name="testValidDomainSearch"/>
+                    <include name="testInValidDomainSearch"/>
+                    <include name="testDomainExtensions"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
